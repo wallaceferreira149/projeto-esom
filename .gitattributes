@@ -1,0 +1,16 @@
+# Normaliza fim de linha para LF (projeto é desenvolvido em Linux)
+* text=auto eol=lf
+
+# Exceções: scripts de Windows precisam de CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binários
+*.jar binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary

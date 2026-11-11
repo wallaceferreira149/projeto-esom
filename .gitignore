@@ -1,0 +1,47 @@
+# --- Windows NTFS metadata (mantidos no disco, fora do git) ---
+*:Zone.Identifier
+*.Identifier
+
+# --- Java / Maven ---
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# --- Node / frontend ---
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.npm/
+.pnpm-store/
+
+# --- IDE ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# --- Env / segredos ---
+.env
+.env.*
+!.env.example
+application-local.*
+*.pem
+*.key
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temporários ---
+*.log
+tmp/
+.cache/
